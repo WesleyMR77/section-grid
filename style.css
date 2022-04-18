@@ -6,50 +6,54 @@ body{
 }
 
 .grid-container {
-	display: grid;
-	grid-template-columns: 3fr 1fr;
-	grid-gap: 15px;
-	margin: 0 auto;
+	margin-top: 60px;
+	display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .grid-middle-container{
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-	grid-gap: 15px;
-	justify-items: center;
+    display: flex;
+    flex-direction: column;
 }
 
 .grid {
-	border: solid 1px black;
-	border-radius: 20px
+	width: 330px;
+	border-radius: 8px;
 }
 
 .grid1 {
-	width: 46vw;
 	background-color: hsl(263, 55%, 52%);
 	color: hsl(0, 0%, 100%);
+
 	
 } 
 
 .grid2 {
-	width: 23vw;
 	background-color: hsl(217, 19%, 35%);
 	color: hsl(210, 46%, 95%)
 } 
 
 .grid3 {
-	width: 23vw;
 	background-color: hsl(0, 0%, 100%);
-	margin-left: -23vw;
 
 } 
 .grid4 {
-	width: 46vw;
 	background-color: hsl(219, 29%, 14%);
 	color: hsl(210, 46%, 95%);
-	margin-left: -23vw;
 } 
 .grid5 {
-	width: 23vw;
 	background-color: hsl(0, 0%, 100%);
 } 
+
+img{
+	width: 60px;
+	height: 60px;
+}
+
+.div-img-h3{
+	display: flex;
+	margin-left:30px;
+	margin-top:30px;
+}
+
