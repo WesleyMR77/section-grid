@@ -25,7 +25,7 @@ body{
 	margin-bottom: 20px;
 }
 p{
-	font-size: 0.8rem;
+	font-size: 0.9rem;
 	color: hsl(0, 0%, 81%);
 }
 
@@ -86,7 +86,6 @@ img{
 
 h2{
 	font-size: 1.33rem;
-	hsl(210, 46%, 95%);
 	font-weight: 500;
 }
 
@@ -94,3 +93,7 @@ h2{
 	margin: 1.6rem;
 }
 
+.border-roxa{
+	border-color: rgb(157, 118, 218);
+
+}
