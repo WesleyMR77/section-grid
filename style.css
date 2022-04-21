@@ -24,6 +24,10 @@ body{
 	border-radius: 8px;
 	margin-bottom: 20px;
 }
+p{
+	font-size: 0.8rem;
+	color: hsl(0, 0%, 81%);
+}
 
 .grid1 {
 	background-color: hsl(263, 55%, 52%);
@@ -37,14 +41,18 @@ body{
 
 .grid3 {
 	background-color: hsl(0, 0%, 100%);
-
+	color: hsl(217, 19%, 35%);
+	font-weight: bold;
 } 
+
+
 .grid4 {
 	background-color: hsl(219, 29%, 14%);
 	color: hsl(210, 46%, 95%);
 } 
 .grid5 {
 	background-color: hsl(0, 0%, 100%);
+	color: hsl(217, 19%, 35%);
 } 
 
 img{
@@ -86,7 +94,3 @@ h2{
 	margin: 1.6rem;
 }
 
-p{
-	font-size: 1rem;
-	color: hsl(0, 0%, 81%);
-}
